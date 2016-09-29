@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.0',
-    # TODO: put package requirements here
+    'python-hosts>=0.3.7'
 ]
 
 test_requirements = [
@@ -21,9 +21,9 @@ test_requirements = [
 setup(
     name='pyhost',
     version='0.1.0',
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description='Python Boilerplate contains all the boilerplate you need to create a Python package.',
     long_description=readme + '\n\n' + history,
-    author="Bo Lopker",
+    author='Bo Lopker',
     author_email='bo@kbl.io',
     url='https://github.com/blopker/pyhost',
     packages=[
@@ -38,7 +38,7 @@ setup(
     },
     include_package_data=True,
     install_requires=requirements,
-    license="MIT license",
+    license='MIT license',
     zip_safe=False,
     keywords='pyhost',
     classifiers=[
@@ -46,7 +46,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
+        'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
